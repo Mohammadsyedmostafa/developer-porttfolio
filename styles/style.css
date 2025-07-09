@@ -1,0 +1,81 @@
+
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shard style */
+.text-primary{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 18px 35px;
+    color: white;
+}
+/* header */
+.header{
+    background-image: url('../image/developer.png'),url('../image/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left,bottom right;
+    background-size:  90px 700px, 736px 450px;
+}
+/* nev stlyes */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul a {
+    text-decoration: none;
+}
+/* bannar style */
+.bannar{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px 0 100px;
+}
+.bannar-contant{
+    max-width: 580px;
+    margin-top: 40px;
+}
+.bannar-wellcome{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+.bannar-title{
+    font-weight: bold;
+    font-size: 60px;
+}
+.bannar-description{
+    font-size: 18px;
+}
+.bannar-img{
+    width: 480px;
+    
+}
