@@ -1,5 +1,7 @@
 
-
+body{
+    margin: 0px;
+}
 .open-sans-normal {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -24,12 +26,33 @@
     padding: 18px 35px;
     color: white;
 }
+.btn-primary1{
+    background-color: white;
+    color: #474747;
+    border: 1px solid #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+.btn-primary1:hover{
+    background-color: #FD6E0A;
+    color: white;
+}
+.btn-primary:hover{
+    background-color: #ffffff;
+    color:#FD6E0A;
+    border: 1px solid #FD6E0A;
+}
 /* header */
 .header{
     background-image: url('../image/developer.png'),url('../image/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left,bottom right;
     background-size:  90px 700px, 736px 450px;
+}
+.secondary-bg{
+    background-color: #fff5ee;
 }
 /* nev stlyes */
 nav{
@@ -45,10 +68,17 @@ nav{
 nav ul{
     display: flex;
     align-items: center;
+    
 }
 nav ul li{
     list-style: none;
     margin-right: 50px;
+}
+nav ul li:hover{
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 5px;
+    padding: 18px 35px;
 }
 nav ul a {
     text-decoration: none;
@@ -77,5 +107,30 @@ nav ul a {
 }
 .bannar-img{
     width: 480px;
-    
+}
+/* main share style */
+.scetion-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.scetion-description{
+    font-size: 18px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* main style */
+.about{
+    border-radius: 10px;
+    margin: 100px;
+    text-align: center;
+    padding: 90px 150px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around
+}
+.item-title{
+   margin-bottom: 5px;
 }
