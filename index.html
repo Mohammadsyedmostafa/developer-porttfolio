@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/80c9afa7b4.js" crossorigin="anonymous"></script>
 </head>
 <body class="open-sans-normal">
     <header class="header secondary-bg">
@@ -22,10 +23,10 @@
         <div class="bannar">
             <div class="bannar-contant">
                 <h4 class="bannar-wellcome dark-2">Hi, I  am</h4>
-                <h1 class="bannar-title">Syed Mostafa</h1>
+                <h1 class="bannar-title">Syed <span class="text-primary">Mostafa</span></h1>
                 <p class="bannar-description dark-2">Shot what able cold new see hold.Friendly as an betrayed formerly he. Morning because as to society behaved moments.</p>
-                <button class="btn-primary">Download CV</button>
-                <button class="btn-primary1">Contract</button>
+                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
+                <button class="btn-primary1"><i class="fa-solid fa-phone-volume"></i> Contract</button>
             </div>
             <img class="bannar-img" src="image/mostafa.png" alt="">
         </div>
@@ -133,12 +134,29 @@
                 </div>
             </div>
             <div class="text-center cv-button">
-                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary"><i class="fa-solid fa-download"></i> Download CV</button>
             </div>
          </section>
     </main>
-    <footer>
-
+    <footer class="secondary-bg footer">
+        <div class="footer-colum">
+            <h3 class="scetion-title">Lets Connect</h3>
+            <p class="scetion-description dark-3">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <div>
+                <a href=""><img src="image/icons/facebook.png"></a>
+                <a href=""><img src="image/icons/insta.png"></a>
+                <a href=""><img src="image/icons/twitter.png"></a>
+            </div>
+        </div>
+        <div class="footer-colum">
+            <h3 class="scetion-title">Let’s Message me</h3>
+            <form action="">
+                <input type="text" name="" id="" placeholder="Your Name Here">
+                <input type="email" name="" id="" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            </form>
+            <input class="btn-primary" type="button" value="Submit">
+        </div>
     </footer>
 </body>
 </html>
