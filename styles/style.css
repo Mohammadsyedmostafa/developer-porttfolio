@@ -74,8 +74,7 @@ nav{
 }
 nav ul{
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
 }
 nav ul li{
     list-style: none;
@@ -209,7 +208,8 @@ footer{
 .footer-colum{
     width: 50%;
 }
-footer input[type="text"],footer input[type="email"]{
+footer input[type="text"],
+footer input[type="email"]{
     height: 50px;
     display: block;
     width: 80%;
@@ -246,9 +246,13 @@ footer textarea{
     .bannar,
     footer{
         flex-direction: column;
+        padding: 20px;
     }
     nav{
         margin: 0px;
+    }
+    nav ul{
+        justify-content: center;
     }
     .bannar{
         margin: 20px;
@@ -259,13 +263,16 @@ footer textarea{
     .header{
         background-image: none;
     }
-    .btn-primary{
-        margin-bottom: 10px;
-    }
     .btn-primary1{
         margin-left: 0px;
     }
     .about{
+        padding: 10px;
+    }
+    .scetion-title{
+        padding: 10px;
+    }
+    .scetion-description{
         padding: 10px;
     }
     .item{
